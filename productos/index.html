@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link  href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+   <a href="#lavandina"> <ul >lavandina</ul></a>
+<a href="#detergente"><ul>detergente</ul></a>
+<ul>desodorante</ul>
+    <ul>jabon</ul>
+    <ul>suabizante</ul>
+    <ul>desengrasante</ul>
+
+<section class="lavandina" id="lavandina">
+</section>
+ <div class="titul">
+        <h1>LAVANDINA</h1>
+    </div>
+
+    <div class="contiene">
+    
+    <div class="precio">
+        <h2>precio</h2>
+        <input type="number" id="preciolav" class="input2" placeholder="600 x 1 litro"> 
+    </div>
+
+    <div class="litros">
+        <h2>litros</h2>
+        <input type="number" id="litrolav" disabled="off" class="input2" placeholder="1000 = 1 litro"> 
+    </div>
+  </div>
+  <div class="total">
+        <button action="whatsapp.html" method="get" class="btn2" id="btn-mostrar" type="submit">TOTAL</button>
+    </div>
+
+
+    </div>
+<p class="muestra" id="pmostrar" ></p>
+<input type="text" id="mensaje" class="input" placeholder=""> 
+<input type="text" id="mensaje1" class="input" placeholder=""> 
+
+</div>
+
+
+<section class="detergente" id="detergente">
+</section>
+ <div class="titul">
+        <h1>DETERGENTE</h1>
+    </div>
+
+    <div class="contiene">
+    
+    <div class="precio">
+        <h2>precio</h2>
+        <input type="number" id="preciodet" class="input2" placeholder="600 x 1 litro"> 
+    </div>
+
+    <div class="litros">
+        <h2>litros</h2>
+        <input type="number" id="litrodet" disabled="off" class="input2" placeholder="1000 = 1 litro"> 
+    </div>
+    </div>
+   
+    <div class="total">
+        <button action="whatsapp.html" method="get" class="btn2" id="btn-mostrar" type="submit">TOTAL2</button>
+    </div>
+
+<div>
+<p class="muestra" id="pmostrar"></p>    
+<input type="text" id="mensaje2" class="input" placeholder=""> 
+<input type="text" id="mensaje1" class="input" placeholder=""> 
+<script src="app.js"></script>
+</div>
+
+<section class="whatsapp">
+
+    <main class="main-content">
+        <div id="amigo2"></div>
+        <section class="input-section">
+            
+            <div class="input-wrapper">
+                <!-- --input agregar amigos-- -->
+                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <!-- --boton agregar amigo-- -->
+                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+            </div>
+           <!-- --lista donde apareseran los amigos-- -->
+             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+                <!-- --aprese el amigo secreto-- -->
+            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+                <!-- --boton donde genera un amigo secreto-- -->
+            <div class="button-container">
+            </div>
+        </section>
+    </main>
+
+<script src="app.js" defer></script>
+
+
+<input type="text" id="mensaje" placeholder="Escribe tu mensaje">
+<a id="enviarWhats" href="#" target="_blank">Enviar por WhatsApp</a>
+</section>    
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+.body{
+    text-shadow: 1cm;
+    color: blues;
+}
+
+
+.contiene{
+    display: flex;
+    color: brown;
+}
+
+.input2{
+    width: 90px;
+    border-radius: 30px;
+    text-align: end;
+}
