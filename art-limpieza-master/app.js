@@ -990,7 +990,7 @@ function sortearAmigo() {
 } 
         */  
 function joinn(){
-    let rest = amigos.join(" ");
+    let rest = actores.join(" ");
     document.getElementById('mensaje').value =rest;
     console.log('listado'+ rest);
 }
